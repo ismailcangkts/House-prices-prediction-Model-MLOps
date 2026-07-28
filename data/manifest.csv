@@ -1,0 +1,6 @@
+split,rows,ratio,path
+initial_train,798,0.55,data/processed/train.csv
+validation,218,0.15,data/processed/validation.csv
+test,145,0.1,data/processed/test.csv
+reference,145,0.1,data/processed/reference.csv
+production,145,0.1,data/production/batch_001.csv
