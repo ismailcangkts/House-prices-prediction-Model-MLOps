@@ -1,0 +1,11 @@
+{
+  "model": "Ridge Regression",
+  "mae": 17383.893654475218,
+  "rmse": 26330.884888270783,
+  "mae_ratio_%": 9.659142952820714,
+  "rmse_ratio_%": 14.630426661900328,
+  "train_rows": 798,
+  "validation_rows": 218,
+  "feature_count": 30,
+  "model_path": "artifacts/models/best_model.joblib"
+}

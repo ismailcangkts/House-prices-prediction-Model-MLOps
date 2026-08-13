@@ -1,11 +1,17 @@
 {
-  "model": "Gradient Boosting",
-  "mae": 15706.671475226487,
-  "rmse": 27295.065073833648,
-  "mae_ratio_%": 8.727215439053715,
-  "rmse_ratio_%": 15.166161315467502,
+  "model": "Ridge Regression",
+  "mae": 17383.893654475218,
+  "rmse": 26330.884888270783,
+  "mae_ratio_%": 9.659142952820714,
+  "rmse_ratio_%": 14.630426661900328,
   "train_rows": 798,
   "validation_rows": 218,
   "feature_count": 30,
-  "model_path": "artifacts/models/best_model.joblib"
+  "model_path": "artifacts/models/best_model.joblib",
+  "mlflow_run_id": "728d0afd81bd4f08abca5563620b1d92",
+  "registered_model_name": "HousePriceModel",
+  "registered_model_version": 3,
+  "registered_model_alias": "candidate",
+  "mlflow_model_uri": "runs:/728d0afd81bd4f08abca5563620b1d92/model",
+  "mlflow_alias_model_uri": "models:/HousePriceModel@candidate"
 }

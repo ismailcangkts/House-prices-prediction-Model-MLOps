@@ -1,0 +1,952 @@
+{
+  "dataset_summary": [
+    {
+      "Metrik": "Temiz gözlem",
+      "Değer": 1451
+    },
+    {
+      "Metrik": "Temiz kolon",
+      "Değer": 83
+    },
+    {
+      "Metrik": "Seçili feature",
+      "Değer": 30
+    },
+    {
+      "Metrik": "Sayısal feature",
+      "Değer": 20
+    },
+    {
+      "Metrik": "Kategorik feature",
+      "Değer": 10
+    },
+    {
+      "Metrik": "Kalan missing",
+      "Değer": 0
+    },
+    {
+      "Metrik": "Duplicate",
+      "Değer": 0
+    }
+  ],
+  "target_summary": [
+    {
+      "Metrik": "Minimum",
+      "Değer": 34900.0
+    },
+    {
+      "Metrik": "Q1",
+      "Değer": 129900.0
+    },
+    {
+      "Metrik": "Medyan",
+      "Değer": 162500.0
+    },
+    {
+      "Metrik": "Ortalama",
+      "Değer": 180624.10199862163
+    },
+    {
+      "Metrik": "Q3",
+      "Değer": 214000.0
+    },
+    {
+      "Metrik": "Maksimum",
+      "Değer": 755000.0
+    },
+    {
+      "Metrik": "Std",
+      "Değer": 79312.12827272755
+    },
+    {
+      "Metrik": "Skewness",
+      "Değer": 1.8811637836028376
+    },
+    {
+      "Metrik": "Kurtosis",
+      "Değer": 6.546264635355081
+    },
+    {
+      "Metrik": "Log Skewness",
+      "Değer": 0.12182385926777978
+    }
+  ],
+  "semantic_cleaning_counts": [
+    {
+      "Durum": "NoFireplace",
+      "Adet": 685
+    },
+    {
+      "Durum": "NoGarage",
+      "Adet": 81
+    },
+    {
+      "Durum": "NoBasement",
+      "Adet": 37
+    },
+    {
+      "Durum": "GarageYrBlt = 0",
+      "Adet": 81
+    },
+    {
+      "Durum": "Kalan missing",
+      "Adet": 0
+    }
+  ],
+  "outlier_summary": [
+    {
+      "Feature": "LotArea",
+      "Alt Sınır": 1443.75,
+      "Üst Sınır": 17693.75,
+      "Outlier Adedi": 67,
+      "Outlier Oranı %": 4.617505168849069
+    },
+    {
+      "Feature": "SalePrice",
+      "Alt Sınır": 3750.0,
+      "Üst Sınır": 340150.0,
+      "Outlier Adedi": 60,
+      "Outlier Oranı %": 4.135079255685734
+    },
+    {
+      "Feature": "TotalBsmtSF",
+      "Alt Sınır": 41.25,
+      "Üst Sınır": 2051.25,
+      "Outlier Adedi": 60,
+      "Outlier Oranı %": 4.135079255685734
+    },
+    {
+      "Feature": "GrLivArea",
+      "Alt Sınır": 156.0,
+      "Üst Sınır": 2748.0,
+      "Outlier Adedi": 31,
+      "Outlier Oranı %": 2.1364576154376294
+    },
+    {
+      "Feature": "GarageArea",
+      "Alt Sınır": -45.25,
+      "Üst Sınır": 948.75,
+      "Outlier Adedi": 20,
+      "Outlier Oranı %": 1.3783597518952446
+    },
+    {
+      "Feature": "1stFlrSF",
+      "Alt Sınır": 118.5,
+      "Üst Sınır": 2154.5,
+      "Outlier Adedi": 19,
+      "Outlier Oranı %": 1.3094417643004823
+    },
+    {
+      "Feature": "BsmtFinSF1",
+      "Alt Sınır": -1060.5,
+      "Üst Sınır": 1767.5,
+      "Outlier Adedi": 7,
+      "Outlier Oranı %": 0.4824259131633356
+    }
+  ],
+  "top_correlations": [
+    {
+      "Feature": "OverallQual",
+      "Korelasyon": 0.7900849201373092
+    },
+    {
+      "Feature": "GrLivArea",
+      "Korelasyon": 0.7100731003397662
+    },
+    {
+      "Feature": "GarageCars",
+      "Korelasyon": 0.6397492861021664
+    },
+    {
+      "Feature": "GarageArea",
+      "Korelasyon": 0.6224835657300107
+    },
+    {
+      "Feature": "TotalBsmtSF",
+      "Korelasyon": 0.6132992899680302
+    },
+    {
+      "Feature": "1stFlrSF",
+      "Korelasyon": 0.6069686642164592
+    },
+    {
+      "Feature": "FullBath",
+      "Korelasyon": 0.562709833097775
+    },
+    {
+      "Feature": "TotRmsAbvGrd",
+      "Korelasyon": 0.5363660897907171
+    },
+    {
+      "Feature": "YearBuilt",
+      "Korelasyon": 0.5232737996488446
+    },
+    {
+      "Feature": "YearRemodAdd",
+      "Korelasyon": 0.5074880521898552
+    },
+    {
+      "Feature": "Fireplaces",
+      "Korelasyon": 0.46897260312131045
+    },
+    {
+      "Feature": "BsmtFinSF1",
+      "Korelasyon": 0.3839946088853101
+    },
+    {
+      "Feature": "LotFrontage",
+      "Korelasyon": 0.3458683092046858
+    },
+    {
+      "Feature": "2ndFlrSF",
+      "Korelasyon": 0.3228396321521066
+    },
+    {
+      "Feature": "OpenPorchSF",
+      "Korelasyon": 0.31124358528427976
+    },
+    {
+      "Feature": "HalfBath",
+      "Korelasyon": 0.2823306040749202
+    },
+    {
+      "Feature": "LotArea",
+      "Korelasyon": 0.26466822224254827
+    },
+    {
+      "Feature": "GarageYrBlt",
+      "Korelasyon": 0.2615584157017153
+    },
+    {
+      "Feature": "MSSubClass",
+      "Korelasyon": -0.08276049147653936
+    },
+    {
+      "Feature": "OverallCond",
+      "Korelasyon": -0.07636091142185629
+    }
+  ],
+  "multicollinearity_pairs": [
+    {
+      "Feature 1": "GarageCars",
+      "Feature 2": "GarageArea",
+      "Korelasyon": 0.8824696531998583
+    },
+    {
+      "Feature 1": "GrLivArea",
+      "Feature 2": "TotRmsAbvGrd",
+      "Korelasyon": 0.8255628719956637
+    },
+    {
+      "Feature 1": "TotalBsmtSF",
+      "Feature 2": "1stFlrSF",
+      "Korelasyon": 0.8181066834217873
+    },
+    {
+      "Feature 1": "GrLivArea",
+      "Feature 2": "2ndFlrSF",
+      "Korelasyon": 0.6904032079188358
+    },
+    {
+      "Feature 1": "GrLivArea",
+      "Feature 2": "FullBath",
+      "Korelasyon": 0.629256961642251
+    },
+    {
+      "Feature 1": "2ndFlrSF",
+      "Feature 2": "TotRmsAbvGrd",
+      "Korelasyon": 0.6176542349449443
+    },
+    {
+      "Feature 1": "2ndFlrSF",
+      "Feature 2": "HalfBath",
+      "Korelasyon": 0.6099975475014788
+    },
+    {
+      "Feature 1": "OverallQual",
+      "Feature 2": "GarageCars",
+      "Korelasyon": 0.6000551772251577
+    },
+    {
+      "Feature 1": "GarageCars",
+      "Feature 2": "GarageYrBlt",
+      "Korelasyon": 0.5980384674036937
+    },
+    {
+      "Feature 1": "OverallQual",
+      "Feature 2": "GrLivArea",
+      "Korelasyon": 0.5944309515010878
+    },
+    {
+      "Feature 1": "YearBuilt",
+      "Feature 2": "YearRemodAdd",
+      "Korelasyon": 0.590324294171521
+    },
+    {
+      "Feature 1": "OverallQual",
+      "Feature 2": "YearBuilt",
+      "Korelasyon": 0.5721286648962215
+    }
+  ],
+  "neighborhood_summary": [
+    {
+      "Neighborhood": "NridgHt",
+      "count": 76,
+      "mean": 314313.65789473685,
+      "median": 314906.5,
+      "std": 95480.83515939067,
+      "min": 154000,
+      "max": 611657
+    },
+    {
+      "Neighborhood": "NoRidge",
+      "count": 41,
+      "mean": 335295.31707317074,
+      "median": 301500.0,
+      "std": 121412.65864036564,
+      "min": 190000,
+      "max": 755000
+    },
+    {
+      "Neighborhood": "StoneBr",
+      "count": 25,
+      "mean": 310499.0,
+      "median": 278000.0,
+      "std": 112969.67664045958,
+      "min": 170000,
+      "max": 556581
+    },
+    {
+      "Neighborhood": "Timber",
+      "count": 37,
+      "mean": 244267.64864864864,
+      "median": 228950.0,
+      "std": 64516.42332737035,
+      "min": 137500,
+      "max": 378500
+    },
+    {
+      "Neighborhood": "Somerst",
+      "count": 83,
+      "mean": 226443.56626506025,
+      "median": 226700.0,
+      "std": 56874.97463954252,
+      "min": 144152,
+      "max": 423000
+    },
+    {
+      "Neighborhood": "Veenker",
+      "count": 11,
+      "mean": 238772.72727272726,
+      "median": 218000.0,
+      "std": 72369.31795877437,
+      "min": 162500,
+      "max": 385000
+    },
+    {
+      "Neighborhood": "Crawfor",
+      "count": 50,
+      "mean": 210824.74,
+      "median": 208550.0,
+      "std": 69550.59917956954,
+      "min": 90350,
+      "max": 392500
+    },
+    {
+      "Neighborhood": "ClearCr",
+      "count": 28,
+      "mean": 212565.42857142858,
+      "median": 200250.0,
+      "std": 50231.53899282104,
+      "min": 130000,
+      "max": 328000
+    },
+    {
+      "Neighborhood": "CollgCr",
+      "count": 149,
+      "mean": 197703.79865771811,
+      "median": 196500.0,
+      "std": 51476.464363610925,
+      "min": 110000,
+      "max": 424870
+    },
+    {
+      "Neighborhood": "Blmngtn",
+      "count": 17,
+      "mean": 194870.88235294117,
+      "median": 191000.0,
+      "std": 30393.22921902663,
+      "min": 159895,
+      "max": 264561
+    },
+    {
+      "Neighborhood": "NWAmes",
+      "count": 73,
+      "mean": 189050.0684931507,
+      "median": 182900.0,
+      "std": 37172.21810645119,
+      "min": 82500,
+      "max": 299800
+    },
+    {
+      "Neighborhood": "Gilbert",
+      "count": 78,
+      "mean": 192551.35897435897,
+      "median": 181000.0,
+      "std": 36118.04016197711,
+      "min": 141000,
+      "max": 377500
+    },
+    {
+      "Neighborhood": "SawyerW",
+      "count": 58,
+      "mean": 186584.3448275862,
+      "median": 179550.0,
+      "std": 56137.61490678837,
+      "min": 76000,
+      "max": 320000
+    },
+    {
+      "Neighborhood": "Mitchel",
+      "count": 49,
+      "mean": 156270.1224489796,
+      "median": 153500.0,
+      "std": 36486.62533360263,
+      "min": 84500,
+      "max": 271000
+    },
+    {
+      "Neighborhood": "NPkVill",
+      "count": 9,
+      "mean": 142694.44444444444,
+      "median": 146000.0,
+      "std": 9377.31452910575,
+      "min": 127500,
+      "max": 155000
+    },
+    {
+      "Neighborhood": "NAmes",
+      "count": 225,
+      "mean": 145847.08,
+      "median": 140000.0,
+      "std": 33075.345450263805,
+      "min": 87500,
+      "max": 345000
+    },
+    {
+      "Neighborhood": "SWISU",
+      "count": 25,
+      "mean": 142591.36,
+      "median": 139500.0,
+      "std": 32622.91767924302,
+      "min": 60000,
+      "max": 200000
+    },
+    {
+      "Neighborhood": "Blueste",
+      "count": 2,
+      "mean": 137500.0,
+      "median": 137500.0,
+      "std": 19091.883092036784,
+      "min": 124000,
+      "max": 151000
+    },
+    {
+      "Neighborhood": "Sawyer",
+      "count": 74,
+      "mean": 136793.13513513515,
+      "median": 135000.0,
+      "std": 22345.129156542916,
+      "min": 62383,
+      "max": 190000
+    },
+    {
+      "Neighborhood": "BrkSide",
+      "count": 58,
+      "mean": 124834.05172413793,
+      "median": 124300.0,
+      "std": 40348.689270401126,
+      "min": 39300,
+      "max": 223500
+    },
+    {
+      "Neighborhood": "Edwards",
+      "count": 100,
+      "mean": 128219.7,
+      "median": 121750.0,
+      "std": 43208.61645867324,
+      "min": 58500,
+      "max": 320000
+    },
+    {
+      "Neighborhood": "OldTown",
+      "count": 113,
+      "mean": 128225.30088495575,
+      "median": 119000.0,
+      "std": 52650.58318492049,
+      "min": 37900,
+      "max": 475000
+    },
+    {
+      "Neighborhood": "BrDale",
+      "count": 16,
+      "mean": 104493.75,
+      "median": 106000.0,
+      "std": 14330.176493446734,
+      "min": 83000,
+      "max": 125000
+    },
+    {
+      "Neighborhood": "IDOTRR",
+      "count": 37,
+      "mean": 100123.78378378379,
+      "median": 103000.0,
+      "std": 33376.71011693228,
+      "min": 34900,
+      "max": 169500
+    },
+    {
+      "Neighborhood": "MeadowV",
+      "count": 17,
+      "mean": 98576.4705882353,
+      "median": 88000.0,
+      "std": 23491.049609685513,
+      "min": 75000,
+      "max": 151400
+    }
+  ],
+  "overallqual_summary": [
+    {
+      "OverallQual": 1,
+      "count": 2,
+      "mean": 50150.0,
+      "median": 50150.0,
+      "std": 15344.217151748082,
+      "min": 39300,
+      "max": 61000
+    },
+    {
+      "OverallQual": 2,
+      "count": 3,
+      "mean": 51770.333333333336,
+      "median": 60000.0,
+      "std": 14254.20079602267,
+      "min": 35311,
+      "max": 60000
+    },
+    {
+      "OverallQual": 3,
+      "count": 20,
+      "mean": 87473.75,
+      "median": 86250.0,
+      "std": 24688.56739864362,
+      "min": 37900,
+      "max": 139600
+    },
+    {
+      "OverallQual": 4,
+      "count": 116,
+      "mean": 108420.6551724138,
+      "median": 108000.0,
+      "std": 29022.00388553888,
+      "min": 34900,
+      "max": 256000
+    },
+    {
+      "OverallQual": 5,
+      "count": 396,
+      "mean": 133437.547979798,
+      "median": 133000.0,
+      "std": 27087.593421010944,
+      "min": 55993,
+      "max": 228950
+    },
+    {
+      "OverallQual": 6,
+      "count": 372,
+      "mean": 161350.56720430107,
+      "median": 159750.0,
+      "std": 36017.10295603849,
+      "min": 76000,
+      "max": 277000
+    },
+    {
+      "OverallQual": 7,
+      "count": 315,
+      "mean": 207900.91746031746,
+      "median": 201000.0,
+      "std": 44703.840500880855,
+      "min": 82500,
+      "max": 383970
+    },
+    {
+      "OverallQual": 8,
+      "count": 167,
+      "mean": 274961.497005988,
+      "median": 270000.0,
+      "std": 64023.72226016446,
+      "min": 122000,
+      "max": 538000
+    },
+    {
+      "OverallQual": 9,
+      "count": 43,
+      "mean": 367513.0232558139,
+      "median": 345000.0,
+      "std": 81278.17484929628,
+      "min": 239000,
+      "max": 611657
+    },
+    {
+      "OverallQual": 10,
+      "count": 17,
+      "mean": 437034.76470588235,
+      "median": 426000.0,
+      "std": 164562.9147687631,
+      "min": 160000,
+      "max": 755000
+    }
+  ],
+  "feature_list": [
+    {
+      "Grup": "Alan & oda",
+      "Feature": "GrLivArea",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "TotalBsmtSF",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "BsmtFinSF1",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "1stFlrSF",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "2ndFlrSF",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "FullBath",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "HalfBath",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "TotRmsAbvGrd",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "LotArea",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "LotFrontage",
+      "Veri Tipi": "float64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "OpenPorchSF",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Alan & oda",
+      "Feature": "Fireplaces",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "OverallQual",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "OverallCond",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "KitchenQual",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "ExterQual",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "BsmtQual",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "BsmtExposure",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Kalite",
+      "Feature": "FireplaceQu",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Garaj",
+      "Feature": "GarageCars",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Garaj",
+      "Feature": "GarageArea",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Garaj",
+      "Feature": "GarageType",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Garaj",
+      "Feature": "GarageFinish",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Konum / tip",
+      "Feature": "Neighborhood",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Konum / tip",
+      "Feature": "MSSubClass",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Konum / tip",
+      "Feature": "MSZoning",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Konum / tip",
+      "Feature": "HouseStyle",
+      "Veri Tipi": "object"
+    },
+    {
+      "Grup": "Yaş",
+      "Feature": "YearBuilt",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Yaş",
+      "Feature": "YearRemodAdd",
+      "Veri Tipi": "int64"
+    },
+    {
+      "Grup": "Yaş",
+      "Feature": "GarageYrBlt",
+      "Veri Tipi": "float64"
+    }
+  ],
+  "feature_engineering_comparison": [
+    {
+      "experiment": "combination",
+      "method": "Birleştirme",
+      "features_added": "TotalSF, TotalBathrooms",
+      "validation_rmse": 26318.060079164778,
+      "validation_rmse_improvement": -21.56852614611853,
+      "validation_rmse_improvement_pct": -0.0820205467434024,
+      "validation_mae_improvement_pct": -0.0051285922330847,
+      "validation_rmsle_improvement_pct": -0.0140693975240519,
+      "test_rmse": 26496.574812661533,
+      "test_rmse_improvement": -2.2997626352807856,
+      "test_rmse_improvement_pct": -0.0086802248068248,
+      "test_mae_improvement_pct": -0.0415837770478765,
+      "test_rmsle_improvement_pct": -0.0329789468226592,
+      "decision": "Olumlu sonuç vermedi"
+    },
+    {
+      "experiment": "decomposition",
+      "method": "Ayrıştırma",
+      "features_added": "BuildDecade, BuildYearInDecade, RemodelDecade, RemodelYearInDecade",
+      "validation_rmse": 26350.434198951363,
+      "validation_rmse_improvement": -53.94264593270782,
+      "validation_rmse_improvement_pct": -0.2051324824984707,
+      "validation_mae_improvement_pct": 0.1253629006549491,
+      "validation_rmsle_improvement_pct": -0.2609377316868911,
+      "test_rmse": 26609.991447113855,
+      "test_rmse_improvement": -115.71639708760632,
+      "test_rmse_improvement_pct": -0.4367600052053194,
+      "test_mae_improvement_pct": -0.2377616101913581,
+      "test_rmsle_improvement_pct": -0.1979348766123405,
+      "decision": "Olumlu sonuç vermedi"
+    },
+    {
+      "experiment": "domain",
+      "method": "Domain-based",
+      "features_added": "HouseAge2010, RemodelAge2010, GarageAge2010, LivingAreaPerRoom, GarageAreaPerCar, FinishedBasementRatio",
+      "validation_rmse": 26755.608654265972,
+      "validation_rmse_improvement": -459.1171012473169,
+      "validation_rmse_improvement_pct": -1.7459253084072102,
+      "validation_mae_improvement_pct": 3.210896129237211,
+      "validation_rmsle_improvement_pct": 5.461245361870097,
+      "test_rmse": 26777.06446794126,
+      "test_rmse_improvement": -282.78941791500984,
+      "test_rmse_improvement_pct": -1.0673604670482564,
+      "test_mae_improvement_pct": 6.197284372066185,
+      "test_rmsle_improvement_pct": 6.159773527074825,
+      "decision": "Olumlu sonuç vermedi"
+    },
+    {
+      "experiment": "binning",
+      "method": "Binning / Gruplama",
+      "features_added": "Qual_Low/Mid/High, Built_Pre1946/1946_1970/1971_1999/2000Plus",
+      "validation_rmse": 26206.25835000916,
+      "validation_rmse_improvement": 90.2332030094949,
+      "validation_rmse_improvement_pct": 0.3431378015868309,
+      "validation_mae_improvement_pct": -0.976887128722643,
+      "validation_rmsle_improvement_pct": -0.8958751519144816,
+      "test_rmse": 27161.43447346041,
+      "test_rmse_improvement": -667.1594234341574,
+      "test_rmse_improvement_pct": -2.518126735585076,
+      "test_mae_improvement_pct": -3.567257913478964,
+      "test_rmsle_improvement_pct": -2.157590371383898,
+      "decision": "Olumlu sonuç vermedi"
+    },
+    {
+      "experiment": "indicator",
+      "method": "Binary / Indicator",
+      "features_added": "HasGarage, HasBasement, HasFireplace, HasSecondFloor, HasOpenPorch, WasRemodeled",
+      "validation_rmse": 26904.876309582018,
+      "validation_rmse_improvement": -608.3847565633587,
+      "validation_rmse_improvement_pct": -2.3135586560539494,
+      "validation_mae_improvement_pct": -1.4606256023353972,
+      "validation_rmsle_improvement_pct": -1.0993651537256517,
+      "test_rmse": 27247.550538351963,
+      "test_rmse_improvement": -753.2754883257112,
+      "test_rmse_improvement_pct": -2.8431632377311065,
+      "test_mae_improvement_pct": -2.7111096090229716,
+      "test_rmsle_improvement_pct": -1.4687931463504282,
+      "decision": "Olumlu sonuç vermedi"
+    },
+    {
+      "experiment": "interaction",
+      "method": "Etkileşim",
+      "features_added": "Qual_x_GrLivArea, Qual_x_TotalBsmtSF, Qual_x_GarageCars",
+      "validation_rmse": 28536.47425675312,
+      "validation_rmse_improvement": -2239.982703734462,
+      "validation_rmse_improvement_pct": -8.518180834953732,
+      "validation_mae_improvement_pct": -0.8580936072752272,
+      "validation_rmsle_improvement_pct": 2.9288342621843486,
+      "test_rmse": 27477.96320921506,
+      "test_rmse_improvement": -983.6881591888086,
+      "test_rmse_improvement_pct": -3.7128328943947984,
+      "test_mae_improvement_pct": -0.4215316789440345,
+      "test_rmsle_improvement_pct": 1.3272061116823917,
+      "decision": "Olumlu sonuç vermedi"
+    },
+    {
+      "experiment": "transformation",
+      "method": "Dönüştürme",
+      "features_added": "LogLotArea, LogGrLivArea, LogLotFrontage, LogOpenPorchSF, LogTotalBsmtSF, Log1stFlrSF, Log2ndFlrSF, LogGarageArea",
+      "validation_rmse": 27932.23720872662,
+      "validation_rmse_improvement": -1635.745655707964,
+      "validation_rmse_improvement_pct": -6.220395037908362,
+      "validation_mae_improvement_pct": 8.595552584173973,
+      "validation_rmsle_improvement_pct": 8.562391208884582,
+      "test_rmse": 28432.081863089938,
+      "test_rmse_improvement": -1937.806813063682,
+      "test_rmse_improvement_pct": -7.314058638723772,
+      "test_mae_improvement_pct": 1.7739907426488424,
+      "test_rmsle_improvement_pct": 2.2880453886575784,
+      "decision": "Olumlu sonuç vermedi"
+    }
+  ],
+  "model_comparison": [
+    {
+      "Model": "Gradient Boosting",
+      "Validation MAE": 15721.082984839128,
+      "Validation RMSE": 24848.784108539177,
+      "Validation RMSLE": 0.11447758417021815,
+      "Validation R2": 0.9030004249910804,
+      "Test MAE": 17104.95698517975,
+      "Test RMSE": 30408.62143127305,
+      "Test RMSLE": 0.1266785807220217,
+      "Test R2": 0.8601427481005557,
+      "RMSE Genelleme Farkı": 5559.837322733874
+    },
+    {
+      "Model": "Elastic Net",
+      "Validation MAE": 17189.449069998944,
+      "Validation RMSE": 25812.01703044997,
+      "Validation RMSLE": 0.12811350151478346,
+      "Validation R2": 0.8953345291011189,
+      "Test MAE": 17480.12492104183,
+      "Test RMSE": 26830.803214870906,
+      "Test RMSLE": 0.12490612846709322,
+      "Test R2": 0.8911173017755978,
+      "RMSE Genelleme Farkı": 1018.7861844209365
+    },
+    {
+      "Model": "Ridge Regression",
+      "Validation MAE": 17139.183439601464,
+      "Validation RMSE": 26007.074335989753,
+      "Validation RMSLE": 0.12803421414050725,
+      "Validation R2": 0.8937466714722314,
+      "Test MAE": 17521.689826005877,
+      "Test RMSE": 26861.021855118688,
+      "Test RMSLE": 0.12490287243562889,
+      "Test R2": 0.8908719017455741,
+      "RMSE Genelleme Farkı": 853.9475191289348
+    },
+    {
+      "Model": "Random Forest",
+      "Validation MAE": 16954.033731897347,
+      "Validation RMSE": 26400.08065136804,
+      "Validation RMSLE": 0.12678312714381004,
+      "Validation R2": 0.8905111099732288,
+      "Test MAE": 18948.840793578962,
+      "Test RMSE": 32343.29740890661,
+      "Test RMSLE": 0.13534220204852004,
+      "Test R2": 0.8417804608928109,
+      "RMSE Genelleme Farkı": 5943.216757538568
+    }
+  ],
+  "residual_by_price_band": [
+    {
+      "Fiyat Bandı": "Alt %25",
+      "MAE": 11697.111662575035,
+      "Bias": -3244.6948162133267,
+      "Gözlem": 56.0
+    },
+    {
+      "Fiyat Bandı": "Orta-alt",
+      "MAE": 11251.570290775024,
+      "Bias": 1806.2788399631902,
+      "Gözlem": 53.0
+    },
+    {
+      "Fiyat Bandı": "Orta-üst",
+      "MAE": 16235.981857472298,
+      "Bias": -1025.3667689094696,
+      "Gözlem": 55.0
+    },
+    {
+      "Fiyat Bandı": "Üst %25",
+      "MAE": 29481.32424364565,
+      "Bias": 21604.38666431378,
+      "Gözlem": 54.0
+    }
+  ]
+}

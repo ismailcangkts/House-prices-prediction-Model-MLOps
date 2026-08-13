@@ -159,6 +159,26 @@ class DomainFeatureEngineer(BaseEstimator, TransformerMixin):
         if "TotalBsmtSF" in X.columns:
             X["HasBasement"] = (X["TotalBsmtSF"] > 0).astype(int)
 
+        # 1. Alanlarin Birlestirilmesi (TotalSF)
+        # Mevcut 3 alani toplayip toplam bir kullanim alani cikaririz, ardindan
+        # coklu baglantiyi onlemek icin eski alanlari sileriz.
+        X["TotalSF"] = X.get("TotalBsmtSF", 0) + X.get("1stFlrSF", 0) + X.get("2ndFlrSF", 0)
+        cols_to_drop_sf = [col for col in ["TotalBsmtSF", "1stFlrSF", "2ndFlrSF"] if col in X.columns]
+        X = X.drop(columns=cols_to_drop_sf)
+
+        # 2. Banyolarin Birlestirilmesi (TotalBathrooms)
+        # Tam banyolar ve yarim banyolari (0.5 katsayisiyla) toplayarak genel
+        # bir islak hacim skoru uretiriz.
+        X["TotalBathrooms"] = X.get("FullBath", 0) + 0.5 * X.get("HalfBath", 0)
+        cols_to_drop_bath = [col for col in ["FullBath", "HalfBath"] if col in X.columns]
+        X = X.drop(columns=cols_to_drop_bath)
+
+        # 3. Ev Kalitesi Siniflandirmasi (Binning OverallQual)
+        # Ekstrem iyi ve ekstrem kotu durumlari daha belirgin hale getiriyoruz.
+        if "OverallQual" in X.columns:
+            X["Qual_High"] = (X["OverallQual"] >= 8).astype(int)
+            X["Qual_Low"] = (X["OverallQual"] <= 4).astype(int)
+
         return X
 
 
@@ -373,20 +393,18 @@ def build_model_candidates():
         #         max_depth=20,
         #     )
         # ),
-        # Lineer regresyon modelini simdilik devre disi biraktik.
-        # Tekrar denemek istersen bu blogun yorum satirlarini kaldirabilirsin.
-        # "Linear Regression (Ridge)": build_model_pipeline(
-        #     Ridge(alpha=10.0),
-        #     scale_features=True,
-        # ),
-        "Gradient Boosting": build_model_pipeline(
-            GradientBoostingRegressor(
-                n_estimators=1000,
-                learning_rate=0.05,
-                max_depth=3,
-                random_state=42,
-            )
+        "Ridge Regression": build_model_pipeline(
+            Ridge(alpha=10.0),
+            scale_features=True,
         ),
+        #"Gradient Boosting": build_model_pipeline(
+        #    GradientBoostingRegressor(
+        #        n_estimators=1000,
+        #        learning_rate=0.05,
+        #        max_depth=3,
+        #        random_state=42,
+        #    )
+        #),
         # XGBoost modelini simdilik devre disi biraktik.
         # Tekrar denemek istersen bu blogun yorum satirlarini kaldirabilirsin.
         # "XGBoost": build_model_pipeline(

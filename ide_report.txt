@@ -1,0 +1,300 @@
+************* Module pipeline_machine_learning
+pipeline_machine_learning.py:166:0: C0301: Line too long (102/100) (line-too-long)
+pipeline_machine_learning.py:348:0: C0301: Line too long (104/100) (line-too-long)
+pipeline_machine_learning.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+pipeline_machine_learning.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:65:18: C0103: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:65:21: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:65:18: W0613: Unused argument 'X' (unused-argument)
+pipeline_machine_learning.py:65:21: W0613: Unused argument 'y' (unused-argument)
+pipeline_machine_learning.py:70:4: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:70:24: C0103: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:70:4: R0912: Too many branches (15/12) (too-many-branches)
+pipeline_machine_learning.py:188:4: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:188:18: C0103: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:188:21: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:188:21: W0613: Unused argument 'y' (unused-argument)
+pipeline_machine_learning.py:197:4: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:197:24: C0103: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:191:8: W0201: Attribute 'lot_frontage_by_neighborhood_' defined outside __init__ (attribute-defined-outside-init)
+pipeline_machine_learning.py:194:8: W0201: Attribute 'global_lot_frontage_median_' defined outside __init__ (attribute-defined-outside-init)
+pipeline_machine_learning.py:213:4: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:213:18: C0103: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:213:21: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:213:18: W0613: Unused argument 'X' (unused-argument)
+pipeline_machine_learning.py:213:21: W0613: Unused argument 'y' (unused-argument)
+pipeline_machine_learning.py:217:4: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:217:24: C0103: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:322:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:327:15: E1123: Unexpected keyword argument 'sparse_output' in constructor call (unexpected-keyword-arg)
+pipeline_machine_learning.py:332:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:359:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:382:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:450:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:450:41: C0103: Argument name "X_train" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:450:50: C0103: Argument name "X_valid" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:450:0: R0913: Too many arguments (6/5) (too-many-arguments)
+pipeline_machine_learning.py:467:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:467:37: C0103: Argument name "X_train" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:467:46: C0103: Argument name "X_valid" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:488:0: C0116: Missing function or method docstring (missing-function-docstring)
+pipeline_machine_learning.py:495:4: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:497:4: C0103: Variable name "X_valid" doesn't conform to snake_case naming style (invalid-name)
+pipeline_machine_learning.py:5:0: W0611: Unused GradientBoostingRegressor imported from sklearn.ensemble (unused-import)
+pipeline_machine_learning.py:5:0: W0611: Unused RandomForestRegressor imported from sklearn.ensemble (unused-import)
+pipeline_machine_learning.py:8:0: W0611: Unused train_test_split imported from sklearn.model_selection (unused-import)
+pipeline_machine_learning.py:14:4: W0611: Unused XGBRegressor imported from xgboost (unused-import)
+pipeline_machine_learning.py:19:4: W0611: Unused LGBMRegressor imported from lightgbm (unused-import)
+pipeline_machine_learning.py:24:4: W0611: Unused CatBoostRegressor imported from catboost (unused-import)
+************* Module test_feature_engineering
+test_feature_engineering.py:65:0: C0301: Line too long (112/100) (line-too-long)
+test_feature_engineering.py:74:0: C0301: Line too long (108/100) (line-too-long)
+test_feature_engineering.py:75:0: C0303: Trailing whitespace (trailing-whitespace)
+test_feature_engineering.py:79:0: C0303: Trailing whitespace (trailing-whitespace)
+test_feature_engineering.py:84:0: C0303: Trailing whitespace (trailing-whitespace)
+test_feature_engineering.py:86:0: C0303: Trailing whitespace (trailing-whitespace)
+test_feature_engineering.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+test_feature_engineering.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+test_feature_engineering.py:38:0: C0116: Missing function or method docstring (missing-function-docstring)
+test_feature_engineering.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+test_feature_engineering.py:50:23: C0103: Argument name "X_train" doesn't conform to snake_case naming style (invalid-name)
+test_feature_engineering.py:50:41: C0103: Argument name "X_valid" doesn't conform to snake_case naming style (invalid-name)
+test_feature_engineering.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+test_feature_engineering.py:60:4: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+test_feature_engineering.py:62:4: C0103: Variable name "X_valid" doesn't conform to snake_case naming style (invalid-name)
+test_feature_engineering.py:69:4: C0115: Missing class docstring (missing-class-docstring)
+test_feature_engineering.py:12:0: C0411: third party import "from sklearn.pipeline import Pipeline" should be placed before "from pipeline_machine_learning import build_model_candidates, DomainFeatureEngineer, NeighborhoodLotFrontageImputer, OrdinalFeatureEncoder, make_one_hot_encoder, ONE_HOT_COLS" (wrong-import-order)
+test_feature_engineering.py:13:0: C0411: third party import "from sklearn.compose import ColumnTransformer" should be placed before "from pipeline_machine_learning import build_model_candidates, DomainFeatureEngineer, NeighborhoodLotFrontageImputer, OrdinalFeatureEncoder, make_one_hot_encoder, ONE_HOT_COLS" (wrong-import-order)
+test_feature_engineering.py:14:0: C0411: third party import "from sklearn.linear_model import Ridge" should be placed before "from pipeline_machine_learning import build_model_candidates, DomainFeatureEngineer, NeighborhoodLotFrontageImputer, OrdinalFeatureEncoder, make_one_hot_encoder, ONE_HOT_COLS" (wrong-import-order)
+test_feature_engineering.py:15:0: C0411: third party import "from sklearn.preprocessing import StandardScaler" should be placed before "from pipeline_machine_learning import build_model_candidates, DomainFeatureEngineer, NeighborhoodLotFrontageImputer, OrdinalFeatureEncoder, make_one_hot_encoder, ONE_HOT_COLS" (wrong-import-order)
+test_feature_engineering.py:16:0: C0411: third party import "from sklearn.compose import TransformedTargetRegressor" should be placed before "from pipeline_machine_learning import build_model_candidates, DomainFeatureEngineer, NeighborhoodLotFrontageImputer, OrdinalFeatureEncoder, make_one_hot_encoder, ONE_HOT_COLS" (wrong-import-order)
+test_feature_engineering.py:17:0: C0411: standard import "import warnings" should be placed before "import numpy as np" (wrong-import-order)
+test_feature_engineering.py:12:0: C0412: Imports from package sklearn are not grouped (ungrouped-imports)
+test_feature_engineering.py:4:0: W0611: Unused build_model_candidates imported from pipeline_machine_learning (unused-import)
+************* Module src
+src/__init__.py:1:0: C0305: Trailing newlines (trailing-newlines)
+************* Module src.pipelines.training_pipeline
+src/pipelines/training_pipeline.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src/pipelines/training_pipeline.py:39:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:40:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+src/pipelines/training_pipeline.py:44:4: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+src/pipelines/training_pipeline.py:45:4: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+src/pipelines/training_pipeline.py:49:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:60:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:64:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:75:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:105:4: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+src/pipelines/training_pipeline.py:117:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:141:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:141:0: R0913: Too many arguments (17/5) (too-many-arguments)
+src/pipelines/training_pipeline.py:141:0: R0914: Too many local variables (22/15) (too-many-locals)
+src/pipelines/training_pipeline.py:245:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:245:0: R0913: Too many arguments (14/5) (too-many-arguments)
+src/pipelines/training_pipeline.py:245:0: R0914: Too many local variables (26/15) (too-many-locals)
+src/pipelines/training_pipeline.py:261:4: C0103: Variable name "X_train" doesn't conform to snake_case naming style (invalid-name)
+src/pipelines/training_pipeline.py:262:4: C0103: Variable name "X_valid" doesn't conform to snake_case naming style (invalid-name)
+src/pipelines/training_pipeline.py:347:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/pipelines/training_pipeline.py:372:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module src.pipelines.__init__
+src/pipelines/__init__.py:1:0: C0305: Trailing newlines (trailing-newlines)
+************* Module src.models.predict
+src/models/predict.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src/models/predict.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/models/predict.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/models/predict.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module src.models.__init__
+src/models/__init__.py:1:0: C0305: Trailing newlines (trailing-newlines)
+************* Module scripts.run_drift_report
+scripts/run_drift_report.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/run_drift_report.py:10:0: E0401: Unable to import 'evidently' (import-error)
+scripts/run_drift_report.py:11:0: E0401: Unable to import 'evidently.presets' (import-error)
+scripts/run_drift_report.py:68:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:108:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:116:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:135:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:143:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:164:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:164:0: R0913: Too many arguments (6/5) (too-many-arguments)
+scripts/run_drift_report.py:164:0: R0914: Too many local variables (24/15) (too-many-locals)
+scripts/run_drift_report.py:255:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/run_drift_report.py:255:0: R0913: Too many arguments (9/5) (too-many-arguments)
+scripts/run_drift_report.py:255:0: R0914: Too many local variables (16/15) (too-many-locals)
+scripts/run_drift_report.py:304:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module scripts.train_candidate_and_promote
+scripts/train_candidate_and_promote.py:48:0: C0301: Line too long (104/100) (line-too-long)
+scripts/train_candidate_and_promote.py:133:0: C0301: Line too long (101/100) (line-too-long)
+scripts/train_candidate_and_promote.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/train_candidate_and_promote.py:13:0: C0413: Import "from src.pipelines.training_pipeline import DEFAULT_MLFLOW_TRACKING_URI, DEFAULT_REGISTERED_MODEL_NAME, run_training_pipeline" should be placed at the top of the module (wrong-import-position)
+scripts/train_candidate_and_promote.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:64:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:69:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:72:11: W0703: Catching too general exception Exception (broad-except)
+scripts/train_candidate_and_promote.py:76:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:83:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:96:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:111:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:137:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:142:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/train_candidate_and_promote.py:142:0: R0913: Too many arguments (9/5) (too-many-arguments)
+scripts/train_candidate_and_promote.py:142:0: R0914: Too many local variables (20/15) (too-many-locals)
+scripts/train_candidate_and_promote.py:229:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module scripts.plot_feature_correlations
+scripts/plot_feature_correlations.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/plot_feature_correlations.py:10:0: C0413: Import "import matplotlib.pyplot as plt" should be placed at the top of the module (wrong-import-position)
+scripts/plot_feature_correlations.py:11:0: C0413: Import "import pandas as pd" should be placed at the top of the module (wrong-import-position)
+scripts/plot_feature_correlations.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/plot_feature_correlations.py:19:35: C0103: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+scripts/plot_feature_correlations.py:73:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/plot_feature_correlations.py:89:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/plot_feature_correlations.py:90:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+************* Module scripts.create_normal_production_batch
+scripts/create_normal_production_batch.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/create_normal_production_batch.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/create_normal_production_batch.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/create_normal_production_batch.py:53:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module scripts.retrain_on_drift
+scripts/retrain_on_drift.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/retrain_on_drift.py:13:0: C0413: Import "from src.pipelines.training_pipeline import run_training_pipeline" should be placed at the top of the module (wrong-import-position)
+scripts/retrain_on_drift.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/retrain_on_drift.py:38:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/retrain_on_drift.py:45:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/retrain_on_drift.py:52:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/retrain_on_drift.py:69:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/retrain_on_drift.py:100:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module scripts.predict_from_registry
+scripts/predict_from_registry.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/predict_from_registry.py:9:0: C0413: Import "from src.models.predict import DEFAULT_INPUT_PATH, DEFAULT_MODEL_URI, DEFAULT_OUTPUT_PATH, DEFAULT_TRACKING_URI, predict_file" should be placed at the top of the module (wrong-import-position)
+scripts/predict_from_registry.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/predict_from_registry.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module scripts.split_dataset
+scripts/split_dataset.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/split_dataset.py:53:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/split_dataset.py:70:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/split_dataset.py:70:25: C0103: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+scripts/split_dataset.py:80:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/split_dataset.py:80:0: R0914: Too many local variables (18/15) (too-many-locals)
+scripts/split_dataset.py:81:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+scripts/split_dataset.py:126:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/split_dataset.py:151:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module scripts.train_initial_model
+scripts/train_initial_model.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/train_initial_model.py:8:0: C0413: Import "from src.pipelines.training_pipeline import main" should be placed at the top of the module (wrong-import-position)
+************* Module app.streamlit_app
+app/streamlit_app.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app/streamlit_app.py:11:0: E0401: Unable to import 'streamlit' (import-error)
+app/streamlit_app.py:35:7: W0703: Catching too general exception Exception (broad-except)
+app/streamlit_app.py:36:4: C0103: Constant name "pml" doesn't conform to UPPER_CASE naming style (invalid-name)
+app/streamlit_app.py:38:0: C0413: Import "from src.models.predict import DEFAULT_MODEL_URI, DEFAULT_TRACKING_URI, load_model_from_registry" should be placed at the top of the module (wrong-import-position)
+app/streamlit_app.py:80:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:85:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:93:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:100:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:109:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:127:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:162:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:162:16: C0103: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:166:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:185:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/streamlit_app.py:185:0: R0914: Too many local variables (50/15) (too-many-locals)
+app/streamlit_app.py:194:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:267:8: C0103: Variable name "q1" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:267:12: C0103: Variable name "q2" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:267:16: C0103: Variable name "q3" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:267:20: C0103: Variable name "q4" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:279:8: C0103: Variable name "a1" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:279:12: C0103: Variable name "a2" doesn't conform to snake_case naming style (invalid-name)
+app/streamlit_app.py:340:15: W0703: Catching too general exception Exception (broad-except)
+app/streamlit_app.py:185:0: R0915: Too many statements (71/50) (too-many-statements)
+************* Module app.pages.monitoring
+app/pages/monitoring.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app/pages/monitoring.py:8:0: E0401: Unable to import 'altair' (import-error)
+app/pages/monitoring.py:10:0: E0401: Unable to import 'streamlit' (import-error)
+app/pages/monitoring.py:20:0: C0413: Import "from src.models.predict import DEFAULT_MODEL_URI, DEFAULT_TRACKING_URI" should be placed at the top of the module (wrong-import-position)
+app/pages/monitoring.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:63:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:67:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:73:4: C0103: Variable name "c1" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:73:8: C0103: Variable name "c2" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:73:12: C0103: Variable name "c3" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:73:16: C0103: Variable name "c4" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:80:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:99:4: C0103: Variable name "c1" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:99:8: C0103: Variable name "c2" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:99:12: C0103: Variable name "c3" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:99:16: C0103: Variable name "c4" doesn't conform to snake_case naming style (invalid-name)
+app/pages/monitoring.py:128:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:147:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:166:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:188:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:204:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:229:0: C0116: Missing function or method docstring (missing-function-docstring)
+app/pages/monitoring.py:1:0: R0801: Similar lines in 2 files
+==app.streamlit_app:[45:80]
+==scripts.split_dataset:[9:41]
+    "OverallQual",
+    "GrLivArea",
+    "Neighborhood",
+    "YearBuilt",
+    "YearRemodAdd",
+    "OverallCond",
+    "TotalBsmtSF",
+    "BsmtFinSF1",
+    "1stFlrSF",
+    "2ndFlrSF",
+    "GarageCars",
+    "GarageArea",
+    "GarageType",
+    "GarageFinish",
+    "GarageYrBlt",
+    "FullBath",
+    "HalfBath",
+    "TotRmsAbvGrd",
+    "KitchenQual",
+    "ExterQual",
+    "BsmtQual",
+    "BsmtExposure",
+    "Fireplaces",
+    "FireplaceQu",
+    "LotArea",
+    "LotFrontage",
+    "MSSubClass",
+    "MSZoning",
+    "HouseStyle",
+    "OpenPorchSF",
+]
+ (duplicate-code)
+app/pages/monitoring.py:1:0: R0801: Similar lines in 2 files
+==pipeline_machine_learning:[340:361]
+==test_feature_engineering:[23:39]
+            ("lot_frontage_imputer", NeighborhoodLotFrontageImputer()),
+            ("ordinal_encoder", OrdinalFeatureEncoder()),
+            (
+                "one_hot_encoder",
+                ColumnTransformer(
+                    transformers=[
+                        ("one_hot", make_one_hot_encoder(), ONE_HOT_COLS),
+                    ],
+                    remainder="passthrough",
+                ),
+            ),
+        ]
+    )
+
+def build_custom_pipeline(feature_engineer):
+    steps = [ (duplicate-code)
+app/pages/monitoring.py:1:0: R0801: Similar lines in 2 files
+==pipeline_machine_learning:[489:499]
+==test_feature_engineering:[55:63]
+    train_df = pd.read_csv("data/processed/train.csv")
+    valid_df = pd.read_csv("data/processed/validation.csv")
+
+    y_train = train_df["SalePrice"]
+    X_train = train_df.drop("SalePrice", axis=1)
+    y_valid = valid_df["SalePrice"]
+    X_valid = valid_df.drop("SalePrice", axis=1)
+ (duplicate-code)
+
+-----------------------------------
+Your code has been rated at 7.81/10
+

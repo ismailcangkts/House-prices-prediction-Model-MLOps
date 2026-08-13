@@ -1,0 +1,11 @@
+{
+  "model": "Random Forest",
+  "mae": 18333.702330011703,
+  "rmse": 28937.126856657866,
+  "mae_ratio_%": 10.186892256698583,
+  "rmse_ratio_%": 16.07855239498723,
+  "train_rows": 798,
+  "validation_rows": 218,
+  "feature_count": 30,
+  "model_path": "artifacts/models/best_model.joblib"
+}

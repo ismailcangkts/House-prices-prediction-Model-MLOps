@@ -1,0 +1,639 @@
+{
+  "reference_path": "data/processed/reference.csv",
+  "current_path": "data/production/batch_001.csv",
+  "reference_rows": 145,
+  "current_rows": 145,
+  "feature_columns": [
+    "OverallQual",
+    "GrLivArea",
+    "Neighborhood",
+    "YearBuilt",
+    "YearRemodAdd",
+    "OverallCond",
+    "TotalBsmtSF",
+    "BsmtFinSF1",
+    "1stFlrSF",
+    "2ndFlrSF",
+    "GarageCars",
+    "GarageArea",
+    "GarageType",
+    "GarageFinish",
+    "GarageYrBlt",
+    "FullBath",
+    "HalfBath",
+    "TotRmsAbvGrd",
+    "KitchenQual",
+    "ExterQual",
+    "BsmtQual",
+    "BsmtExposure",
+    "Fireplaces",
+    "FireplaceQu",
+    "LotArea",
+    "LotFrontage",
+    "MSSubClass",
+    "MSZoning",
+    "HouseStyle",
+    "OpenPorchSF"
+  ],
+  "summary": {
+    "dataset_drift": true,
+    "alert_status": "DATASET_DRIFT_WARNING",
+    "evidently_dataset_drift_by_share": false,
+    "drifted_columns_count": 10,
+    "total_columns_count": 30,
+    "share_of_drifted_columns": 0.3333333333333333,
+    "weighted_drift_score": 0.3772607029098958,
+    "warning_threshold": 0.25,
+    "critical_threshold": 0.45,
+    "critical_features": [
+      "OverallQual",
+      "GarageArea",
+      "GarageCars",
+      "GrLivArea",
+      "TotalBsmtSF",
+      "BsmtQual",
+      "1stFlrSF",
+      "ExterQual"
+    ],
+    "drifted_critical_features": [
+      "OverallQual",
+      "GarageCars"
+    ],
+    "critical_feature_drift_count": 2,
+    "critical_feature_warning_count": 1,
+    "critical_feature_critical_count": 4,
+    "feature_weights": {
+      "OverallQual": 1.0,
+      "GrLivArea": 0.95,
+      "Neighborhood": 0.742,
+      "YearBuilt": 0.696,
+      "YearRemodAdd": 0.573,
+      "OverallCond": 0.249,
+      "TotalBsmtSF": 0.925,
+      "BsmtFinSF1": 0.544,
+      "1stFlrSF": 0.906,
+      "2ndFlrSF": 0.407,
+      "GarageCars": 0.967,
+      "GarageArea": 0.988,
+      "GarageType": 0.491,
+      "GarageFinish": 0.628,
+      "GarageYrBlt": 0.254,
+      "FullBath": 0.725,
+      "HalfBath": 0.4,
+      "TotRmsAbvGrd": 0.732,
+      "KitchenQual": 0.702,
+      "ExterQual": 0.803,
+      "BsmtQual": 0.909,
+      "BsmtExposure": 0.549,
+      "Fireplaces": 0.584,
+      "FireplaceQu": 0.587,
+      "LotArea": 0.523,
+      "LotFrontage": 0.378,
+      "MSSubClass": 0.004,
+      "MSZoning": 0.356,
+      "HouseStyle": 0.342,
+      "OpenPorchSF": 0.609
+    },
+    "drifted_columns": [
+      "OverallQual",
+      "Neighborhood",
+      "GarageCars",
+      "GarageFinish",
+      "FullBath",
+      "TotRmsAbvGrd",
+      "KitchenQual",
+      "BsmtExposure",
+      "FireplaceQu",
+      "MSZoning"
+    ],
+    "columns": {
+      "GrLivArea": {
+        "drift_detected": false,
+        "drift_score": 0.88239056244354,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "YearBuilt": {
+        "drift_detected": false,
+        "drift_score": 0.42092569867722746,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "YearRemodAdd": {
+        "drift_detected": false,
+        "drift_score": 0.0955146552451055,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "TotalBsmtSF": {
+        "drift_detected": false,
+        "drift_score": 0.3413995657556638,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "BsmtFinSF1": {
+        "drift_detected": false,
+        "drift_score": 0.21427095170992855,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "1stFlrSF": {
+        "drift_detected": false,
+        "drift_score": 0.88239056244354,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "2ndFlrSF": {
+        "drift_detected": false,
+        "drift_score": 0.9439798953192418,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "GarageArea": {
+        "drift_detected": false,
+        "drift_score": 0.16603319176792924,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "GarageYrBlt": {
+        "drift_detected": false,
+        "drift_score": 0.27251652902951723,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "LotArea": {
+        "drift_detected": false,
+        "drift_score": 0.7053094083600169,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "LotFrontage": {
+        "drift_detected": false,
+        "drift_score": 0.7053094083600169,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "MSSubClass": {
+        "drift_detected": false,
+        "drift_score": 0.88239056244354,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "OpenPorchSF": {
+        "drift_detected": false,
+        "drift_score": 0.9807683854054685,
+        "stattest_name": "K-S p_value",
+        "threshold": 0.05
+      },
+      "OverallQual": {
+        "drift_detected": true,
+        "drift_score": 0.0,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "Neighborhood": {
+        "drift_detected": true,
+        "drift_score": 0.0,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "OverallCond": {
+        "drift_detected": false,
+        "drift_score": 0.05572921020602578,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "GarageCars": {
+        "drift_detected": true,
+        "drift_score": 0.03216455839866226,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "GarageType": {
+        "drift_detected": false,
+        "drift_score": 0.16205627863220093,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "GarageFinish": {
+        "drift_detected": true,
+        "drift_score": 0.045232341437052404,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "FullBath": {
+        "drift_detected": true,
+        "drift_score": 0.0,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "HalfBath": {
+        "drift_detected": false,
+        "drift_score": 0.6818274060977493,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "TotRmsAbvGrd": {
+        "drift_detected": true,
+        "drift_score": 0.0027473497505320246,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "KitchenQual": {
+        "drift_detected": true,
+        "drift_score": 0.04506424408272369,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "ExterQual": {
+        "drift_detected": false,
+        "drift_score": 0.05042962673505645,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "BsmtQual": {
+        "drift_detected": false,
+        "drift_score": 0.07314612951774782,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "BsmtExposure": {
+        "drift_detected": true,
+        "drift_score": 6.57423321414409e-07,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "Fireplaces": {
+        "drift_detected": false,
+        "drift_score": 0.7758897741036104,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "FireplaceQu": {
+        "drift_detected": true,
+        "drift_score": 0.0,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "MSZoning": {
+        "drift_detected": true,
+        "drift_score": 0.0,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      },
+      "HouseStyle": {
+        "drift_detected": false,
+        "drift_score": 0.754474230816961,
+        "stattest_name": "chi-square p_value",
+        "threshold": 0.05
+      }
+    }
+  },
+  "evidently_report": {
+    "metrics": [
+      {
+        "id": "15e89f895b482f9b84ba7274ed18a106",
+        "metric_name": "DriftedColumnsCount(drift_share=0.5)",
+        "config": {
+          "type": "evidently:metric_v2:DriftedColumnsCount",
+          "drift_share": 0.5
+        },
+        "value": {
+          "count": 10.0,
+          "share": 0.3333333333333333
+        }
+      },
+      {
+        "id": "6fe212a655e0b084b246068931143452",
+        "metric_name": "ValueDrift(column=GrLivArea,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "GrLivArea",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.88239056244354
+      },
+      {
+        "id": "657764d1b827abb3f412b51650513285",
+        "metric_name": "ValueDrift(column=YearBuilt,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "YearBuilt",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.42092569867722746
+      },
+      {
+        "id": "6aba9d6b69e9eb4c16134580824562be",
+        "metric_name": "ValueDrift(column=YearRemodAdd,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "YearRemodAdd",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0955146552451055
+      },
+      {
+        "id": "fad0cc11f4410e2bf37a61d91d362722",
+        "metric_name": "ValueDrift(column=TotalBsmtSF,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "TotalBsmtSF",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.3413995657556638
+      },
+      {
+        "id": "a142d52c23f80a380c6b1e330f7b82a6",
+        "metric_name": "ValueDrift(column=BsmtFinSF1,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "BsmtFinSF1",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.21427095170992855
+      },
+      {
+        "id": "55547a4dd04d934ed977d5a122e8f7d7",
+        "metric_name": "ValueDrift(column=1stFlrSF,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "1stFlrSF",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.88239056244354
+      },
+      {
+        "id": "2ec2371748982b681dfb9a86cd7276ba",
+        "metric_name": "ValueDrift(column=2ndFlrSF,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "2ndFlrSF",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.9439798953192418
+      },
+      {
+        "id": "00cb7b0ee192d52f7850eb6d197eea0e",
+        "metric_name": "ValueDrift(column=GarageArea,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "GarageArea",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.16603319176792924
+      },
+      {
+        "id": "e3f552f1bd573249bd1a0a579eb194d2",
+        "metric_name": "ValueDrift(column=GarageYrBlt,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "GarageYrBlt",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.27251652902951723
+      },
+      {
+        "id": "bb4b57ef5d96c03edaa8c24bffebcc59",
+        "metric_name": "ValueDrift(column=LotArea,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "LotArea",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.7053094083600169
+      },
+      {
+        "id": "64964a2f766eaa875dd1f5b181752c85",
+        "metric_name": "ValueDrift(column=LotFrontage,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "LotFrontage",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.7053094083600169
+      },
+      {
+        "id": "344723177ade4afbb7234bd3f6521b83",
+        "metric_name": "ValueDrift(column=MSSubClass,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "MSSubClass",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.88239056244354
+      },
+      {
+        "id": "2b3186b6c927b53db23a216c203e89f0",
+        "metric_name": "ValueDrift(column=OpenPorchSF,method=K-S p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "OpenPorchSF",
+          "method": "K-S p_value",
+          "threshold": 0.05
+        },
+        "value": 0.9807683854054685
+      },
+      {
+        "id": "a0d4b1fe8da48fb513dccf12c402f73c",
+        "metric_name": "ValueDrift(column=OverallQual,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "OverallQual",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0
+      },
+      {
+        "id": "bf073f2989149931a087c56459da6adf",
+        "metric_name": "ValueDrift(column=Neighborhood,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "Neighborhood",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0
+      },
+      {
+        "id": "30c0ed236b4a41b55a19400b7a89238b",
+        "metric_name": "ValueDrift(column=OverallCond,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "OverallCond",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.05572921020602578
+      },
+      {
+        "id": "df0070e0f7ae4d9300271504e0fd7b19",
+        "metric_name": "ValueDrift(column=GarageCars,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "GarageCars",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.03216455839866226
+      },
+      {
+        "id": "cd2e8f228a74972ee3a80ad80d74f242",
+        "metric_name": "ValueDrift(column=GarageType,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "GarageType",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.16205627863220093
+      },
+      {
+        "id": "77066bfbae54774d11ce37678171d30c",
+        "metric_name": "ValueDrift(column=GarageFinish,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "GarageFinish",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.045232341437052404
+      },
+      {
+        "id": "e0f77bcd96c764479c780aaf87418e6c",
+        "metric_name": "ValueDrift(column=FullBath,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "FullBath",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0
+      },
+      {
+        "id": "395ca3b4f34c16df328cf13fef5b68b2",
+        "metric_name": "ValueDrift(column=HalfBath,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "HalfBath",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.6818274060977493
+      },
+      {
+        "id": "02fc27efae5b84c706c639c2a5957db2",
+        "metric_name": "ValueDrift(column=TotRmsAbvGrd,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "TotRmsAbvGrd",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0027473497505320246
+      },
+      {
+        "id": "0bfd27d6890408960c83081403ca156d",
+        "metric_name": "ValueDrift(column=KitchenQual,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "KitchenQual",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.04506424408272369
+      },
+      {
+        "id": "33818580e05efdf07940e4f4db3ba122",
+        "metric_name": "ValueDrift(column=ExterQual,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "ExterQual",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.05042962673505645
+      },
+      {
+        "id": "de8f7842a921eaecfa0dabb4035d4176",
+        "metric_name": "ValueDrift(column=BsmtQual,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "BsmtQual",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.07314612951774782
+      },
+      {
+        "id": "ae07b8e09d3026f4c8348f9df120cb4a",
+        "metric_name": "ValueDrift(column=BsmtExposure,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "BsmtExposure",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 6.57423321414409e-07
+      },
+      {
+        "id": "5df5f8681ca62f67d5edfb4418fb3466",
+        "metric_name": "ValueDrift(column=Fireplaces,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "Fireplaces",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.7758897741036104
+      },
+      {
+        "id": "0ca6cca839c410d7abdc04a9fb1892bb",
+        "metric_name": "ValueDrift(column=FireplaceQu,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "FireplaceQu",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0
+      },
+      {
+        "id": "3fa62e24611cf75a96e3062ee0faa4db",
+        "metric_name": "ValueDrift(column=MSZoning,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "MSZoning",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.0
+      },
+      {
+        "id": "7850fe797d24dd56ff1a5e90b0a7ae4e",
+        "metric_name": "ValueDrift(column=HouseStyle,method=chi-square p_value,threshold=0.05)",
+        "config": {
+          "type": "evidently:metric_v2:ValueDrift",
+          "column": "HouseStyle",
+          "method": "chi-square p_value",
+          "threshold": 0.05
+        },
+        "value": 0.754474230816961
+      }
+    ],
+    "tests": []
+  }
+}

@@ -1,0 +1,31 @@
+Grup,Feature,Veri Tipi
+Alan & oda,GrLivArea,int64
+Alan & oda,TotalBsmtSF,int64
+Alan & oda,BsmtFinSF1,int64
+Alan & oda,1stFlrSF,int64
+Alan & oda,2ndFlrSF,int64
+Alan & oda,FullBath,int64
+Alan & oda,HalfBath,int64
+Alan & oda,TotRmsAbvGrd,int64
+Alan & oda,LotArea,int64
+Alan & oda,LotFrontage,float64
+Alan & oda,OpenPorchSF,int64
+Alan & oda,Fireplaces,int64
+Kalite,OverallQual,int64
+Kalite,OverallCond,int64
+Kalite,KitchenQual,object
+Kalite,ExterQual,object
+Kalite,BsmtQual,object
+Kalite,BsmtExposure,object
+Kalite,FireplaceQu,object
+Garaj,GarageCars,int64
+Garaj,GarageArea,int64
+Garaj,GarageType,object
+Garaj,GarageFinish,object
+Konum / tip,Neighborhood,object
+Konum / tip,MSSubClass,int64
+Konum / tip,MSZoning,object
+Konum / tip,HouseStyle,object
+Yaş,YearBuilt,int64
+Yaş,YearRemodAdd,int64
+Yaş,GarageYrBlt,float64

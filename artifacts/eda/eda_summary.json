@@ -1,0 +1,15 @@
+{
+  "rows": 145,
+  "columns": 31,
+  "numeric_columns": 21,
+  "categorical_columns": 10,
+  "duplicate_rows": 0,
+  "total_missing_values": 0,
+  "target": {
+    "min": 35311.0,
+    "median": 173000.0,
+    "mean": 189923.2,
+    "max": 582933.0,
+    "std": 86725.3968540614
+  }
+}

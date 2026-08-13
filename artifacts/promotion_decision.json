@@ -1,0 +1,25 @@
+{
+  "registered_model_name": "HousePriceModel",
+  "candidate_alias": "candidate",
+  "champion_alias": "champion",
+  "metric_name": "rmse",
+  "min_improvement": 0.0,
+  "required_candidate_metric": 26330.884888270783,
+  "candidate": {
+    "version": "3",
+    "run_id": "728d0afd81bd4f08abca5563620b1d92",
+    "metric_name": "rmse",
+    "metric_value": 26330.884888270783
+  },
+  "champion": {
+    "version": "3",
+    "run_id": "728d0afd81bd4f08abca5563620b1d92",
+    "metric_name": "rmse",
+    "metric_value": 26330.884888270783
+  },
+  "promotion_status": "promoted",
+  "reason": "candidate_metric_meets_promotion_requirement",
+  "dry_run": false,
+  "training_best_metrics": null,
+  "final_champion_version": "3"
+}

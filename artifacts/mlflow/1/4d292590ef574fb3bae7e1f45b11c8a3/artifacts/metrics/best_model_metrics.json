@@ -1,0 +1,11 @@
+{
+  "model": "Gradient Boosting",
+  "mae": 15661.567878760461,
+  "rmse": 27263.835928749842,
+  "mae_ratio_%": 8.702154190140728,
+  "rmse_ratio_%": 15.148809231828796,
+  "train_rows": 798,
+  "validation_rows": 218,
+  "feature_count": 30,
+  "model_path": "artifacts/models/best_model.joblib"
+}
