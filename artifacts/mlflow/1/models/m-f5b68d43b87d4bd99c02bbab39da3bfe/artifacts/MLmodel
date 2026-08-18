@@ -1,0 +1,22 @@
+artifact_path: /Users/ismailcangoktas/Desktop/House-prices-prediction-Model-MLOps/artifacts/mlflow/1/models/m-f5b68d43b87d4bd99c02bbab39da3bfe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-f5b68d43b87d4bd99c02bbab39da3bfe
+model_size_bytes: 8186
+model_uuid: m-f5b68d43b87d4bd99c02bbab39da3bfe
+prompts: null
+run_id: c84799bfc2bb4a7f8235cde69093b057
+utc_time_created: '2026-08-13 13:16:30.710698'
